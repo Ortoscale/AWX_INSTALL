@@ -4,9 +4,8 @@ Before start install docker-compose (under root)
 3. sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 4. docker-compose --version
 
-
-1. clone this repo
-2. $ `cd AWX_INSTALL`
-3. $ `docker-compose up -d`
-4. $ `chmod 777 redis_socket`
-6. $ `docker-compose logs -f --tail=1`
+Clone this repo
+1. $ `cd AWX_INSTALL`
+2. $ `docker-compose up -d`
+3. $ `chmod 777 redis_socket`
+4. $ `docker-compose logs -f --tail=1`
