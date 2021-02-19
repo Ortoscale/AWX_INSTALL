@@ -4,6 +4,8 @@ services:
   web:
     image: ansible/awx:15.0.1
     container_name: awx_web
+    logging:
+      driver: json-file
     depends_on:
       - redis
       - postgres
@@ -30,6 +32,8 @@ services:
   task:
     image: ansible/awx:15.0.1
     container_name: awx_task
+    logging:
+      driver: json-file
     depends_on:
       - redis
       - web
@@ -56,6 +60,8 @@ services:
   redis:
     image: redis
     container_name: awx_redis
+    logging:
+      driver: json-file
     restart: unless-stopped
     environment:
       http_proxy: 
@@ -69,6 +75,8 @@ services:
   postgres:
     image: postgres:10
     container_name: awx_postgres
+    logging:
+      driver: json-file
     restart: unless-stopped
     volumes:
       - "./pgdocker/10/data/:/var/lib/postgresql/data:Z"
