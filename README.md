@@ -25,7 +25,10 @@ Run all services:
 ```sh
 docker-compose up -d
 ```
-Wait 5 minutes and follow the link ip:8081
+Wait 5 minutes and follow the link ip:8081. 
+The default access:
+login - admin
+password - password
 
 
 **Congratulations, you have installed awx**
