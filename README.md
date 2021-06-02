@@ -30,6 +30,6 @@ The default access:
 login - admin,
 password - password
 
-User Authentication with Kerberos [here](https://docs.ansible.com/ansible-tower/3.1.6/html/administration/kerberos_auth.html)
+User Authentication with Kerberos [here](https://docs.ansible.com/ansible-tower/3.1.6/html/administration/kerberos_auth.html). Have to change "WEBSITE.COM" to domain name. Small letters should be small, large large.
 
 **Congratulations, you have installed awx**
