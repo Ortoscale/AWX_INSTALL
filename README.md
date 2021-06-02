@@ -30,9 +30,9 @@ The default access:
 login - admin,
 password - password
 
-2) Change info [here](https://github.com/Ortoscale/AWX_INSTALL/blob/master/add_config/krb5.conf). Have to change "WEBSITE.COM" to domain name and main domain controller to yours. Small letters should be small, large large.
+#### 2) Change info [here](https://github.com/Ortoscale/AWX_INSTALL/blob/master/add_config/krb5.conf). Have to change "WEBSITE.COM" to domain name and main domain controller to yours. Small letters should be small, large large.
 
-3) Install influxdb with pip3. In folder AWX_INSTSALL execute:
+#### 3) Install influxdb with pip3. In folder AWX_INSTSALL execute:
 ```sh
 docker exec -it awx_task bash
 pip3 install influxdb
