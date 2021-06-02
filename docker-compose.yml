@@ -55,7 +55,7 @@ services:
       - "./environment.sh:/etc/tower/conf.d/environment.sh"
       - "./credentials.py:/etc/tower/conf.d/credentials.py"
       - "./redis_socket:/var/run/redis/:rw"
-#      - "/root/.ssh/server.pem:/etc/nginx/awxweb.pem:ro"
+      - "./add_config/krb5.conf:/etc/krb5.conf"
     logging:
       driver: "json-file"
       options:
