@@ -30,6 +30,6 @@ The default access:
 login - admin,
 password - password
 
-Change info [here](https://github.com/Ortoscale/AWX_INSTALL/blob/master/add_config/krb5.conf). Have to change "WEBSITE.COM" to domain name and main domain contriller to yours. Small letters should be small, large large.
+Change info [here](https://github.com/Ortoscale/AWX_INSTALL/blob/master/add_config/krb5.conf). Have to change "WEBSITE.COM" to domain name and main domain controller to yours. Small letters should be small, large large.
 
 **Congratulations, you have installed awx**
