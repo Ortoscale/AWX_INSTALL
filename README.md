@@ -30,6 +30,6 @@ The default access:
 login - admin,
 password - password
 
-User Authentication with Kerberos [here] (https://docs.ansible.com/ansible-tower/3.1.6/html/administration/kerberos_auth.html)
+User Authentication with Kerberos [here](https://docs.ansible.com/ansible-tower/3.1.6/html/administration/kerberos_auth.html)
 
 **Congratulations, you have installed awx**
