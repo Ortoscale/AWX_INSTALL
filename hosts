@@ -1,0 +1,9 @@
+[rhel]
+dev-test                 ansible_host=10.99.20.15
+
+[rhel:vars]
+ansible_python_interpreter=/usr/bin/python
+ansible_user=ec2-user
+
+[all:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
